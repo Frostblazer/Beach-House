@@ -1,0 +1,108 @@
+body {
+  text-align: center;
+  background-color: #E6FEFE;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#title {
+  font-family: Pacifico;
+  background-color: #93E3E5;
+}
+
+.navbar-brand {
+  font-size: 4rem;
+  padding-left: 5%;
+  color: Dodgerblue;
+}
+
+.nav-link {
+  font-size: 2rem;
+}
+
+.house-image {
+  width: 60%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.row {
+  margin-right: 0;
+}
+
+.body-section {
+  background-image: url('../images/beach2.jpg');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 175px;
+}
+
+.pricing-column{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.card {
+  width: 18rem;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+
+.map {
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+#policy-section {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.policy-heading {
+  padding-bottom: 1%;
+}
+
+.bottom-container {
+  background-color: #93E3E5;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.butn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: WHITE;
+  font-size: 20px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.link {
+  padding-top: 1%;
+}
